@@ -30,8 +30,8 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/iits-consulting/waf-cert-uploader:latest
-            ghcr.io/iits-consulting/waf-cert-uploader:${{ env.RELEASE_VERSION }}
+            ghcr.io/iits-consulting/cert-manager-webhook-opentelekomcloud:latest
+            ghcr.io/iits-consulting/cert-manager-webhook-opentelekomcloud:${{ env.RELEASE_VERSION }}
   chart-release:
     permissions:
       contents: write
