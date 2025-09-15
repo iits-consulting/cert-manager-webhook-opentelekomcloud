@@ -2,7 +2,7 @@ GO ?= $(shell which go)
 OS ?= $(shell $(GO) env GOOS)
 ARCH ?= $(shell $(GO) env GOARCH)
 
-IMAGE_NAME := "iits-consulting/cert-manager-webhook-opentelekomcloud"
+IMAGE_NAME := "ghcr.io/iits-consulting/cert-manager-webhook-opentelekomcloud"
 IMAGE_TAG  ?= "v0.1.5"
 
 OUT := $(shell pwd)/_out
