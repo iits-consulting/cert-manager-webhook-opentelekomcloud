@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/caarlos0/env/v11 v11.3.1
-	github.com/cert-manager/cert-manager v1.19.2
+	github.com/cert-manager/cert-manager v1.19.3
 	github.com/opentelekomcloud/gophertelekomcloud v0.9.5
 	github.com/pkg/errors v0.9.1
 	k8s.io/api v0.35.0
